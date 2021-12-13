@@ -518,7 +518,7 @@ Library.theme.titlesize = 17
 
 if PuppywareSettings.Watermark == true then
 
-Library:CreateWatermark("kittenassit toalyl | {fps} | {game}")
+Library:CreateWatermark("keeware | {fps} | {game}")
 
 end
 
