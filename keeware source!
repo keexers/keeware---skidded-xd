@@ -41,7 +41,7 @@ getgenv().PuppywareSettings = {
 end
 
 local Script = {
-Version = "v0.6.9",
+Version = "v0.0.5",
 Name = "keeware-priv"
 }
 
@@ -59,10 +59,10 @@ KillSay = {
     Message = {
         "@s is sus.",
         "nn tapped, @s bad cheat.",
-        "im on on top, @s is clapped.",
+        "nca-priv on top, @s is clapped.",
         "@s is rekted.",
-        "me > you",
-        "you are just bad get synapse",
+        "nca-priv>you",
+        "you are just bad get nca-priv",
         "u rly thought",
         "bad boy clique",
         "noob",
@@ -511,14 +511,14 @@ local Notify = NotifyLibrary.Notify
 Module.Functions.Init()
 
 Library.theme.topheight = 50
---Library.theme.accentcolor = Color3.fromRGB(129, 45, 202)
---Library.theme.accentcolor2 = Color3.fromRGB(101, 31, 162)
+Library.theme.accentcolor = Color3.fromRGB(255, 105, 180)
+Library.theme.accentcolor2 = Color3.fromRGB(128, 23, 90)
 Library.theme.fontsize = 15
 Library.theme.titlesize = 17
 
 if PuppywareSettings.Watermark == true then
 
-Library:CreateWatermark("Kee-Ware | {fps} | {game}")
+Library:CreateWatermark("kittenassit toalyl | {fps} | {game}")
 
 end
 
